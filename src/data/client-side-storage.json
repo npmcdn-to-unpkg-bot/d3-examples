@@ -1,0 +1,80 @@
+{
+  "name":"client-side storage",
+  "children":
+  [
+    {
+      "name":"web storage",
+      "children":
+      [
+        {
+          "name":"localStorage",
+          "children":
+          [
+            {
+              "name":"amount: large(but not huge)"
+            },
+            {
+              "name":"lifetime: permanent"
+            },
+            {
+              "name":"scope: document origin"
+            }
+          ]
+        },
+        {
+          "name":"sessionStorage",
+          "children":
+          [
+            {
+              "name":"amount: large(but not huge)"
+            },
+            {
+              "name":"lifetime: top-level window/browser tab"
+            },
+            {
+              "name":"scope: document origin && per-window basis"
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "name":"cookies",
+      "children":
+      [
+
+      ]
+    },
+
+    {
+      "name":"IE User Data",
+      "children":
+      [
+
+      ]
+    },
+
+    {
+      "name":"Web Database",
+      "children":
+      [
+        {
+          "name":"IndexedDB",
+          "children":
+          [
+
+          ]
+        }
+      ]
+    },
+
+    {
+      "name":"filesystem API",
+      "children":
+      [
+
+      ]
+    }
+  ]
+}
